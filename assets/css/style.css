@@ -465,7 +465,7 @@ nav ul li a:hover::before{
     nav{
         position: absolute;
         background-color: #3da5e9;
-        top:91px;
+        top:89px;
         transition: all 0.5s ease-in-out;
         height: 0%;
         visibility: hidden;
@@ -602,7 +602,7 @@ nav ul li a:hover::before{
         margin-top: 9px;
     }
     nav{
-        top: 75px;
+        top: 73px;
     }
     .toggle_icon{
         margin-top: 9px;
