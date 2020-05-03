@@ -1,0 +1,16 @@
+@font-face{
+    font-family: roboto;
+    src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: poppins;
+    src: url(/assets/fonts/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: literata;
+    src: url(/assets/fonts/Literata-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: quantico;
+    src: url(/assets/fonts/Quantico-Regular.ttf);
+}
