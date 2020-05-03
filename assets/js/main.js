@@ -18,7 +18,7 @@ function showMsg(){
     else if(d>=12 && d<17){
         msg.innerHTML = 'Good Afternoon'
     }
-    if(d>=17 && d<5){
+    if(d>=17 || d<5){
         msg.innerHTML = 'Good Night'
     }
     setTimeout(hide,3000)
