@@ -4,46 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microbyte Solutions</title>
-    <!--css-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!--Custom Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--Favicon-->
-    <link rel="icon" href="assets/images/favicon.svg" type="image/svg" sizes="16x16">
 </head>
 <body>
-    <div id="loader"></div>
-    <section id="home" class='headersection'>
-        <header id="header1" class='header'>
-            <div class="logo">
-                <h1>Microbyte Solutions</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href='index.html#home'>Home</a></li>
-                    <li><a href='index.html#course'>Course</a></li>
-                    <li><a href='index.html#gallery'>Gallery</a></li>
-                    <li><a href='javascript:void(0)'>Blog</a></li>
-                    <li><a href='index.html#contact'>Contact</a></li>
-                </ul>
-            </nav>
-            <div class="toggle_icon">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </header>
-        <div class="container_for_blog">
-            <div>
-                <p class="title">“SMART CITIES WILL BE THE BIGGEST ENABLER OF IoT”</p>
-                <img src="assets/images/blog.jpg" alt="Blog Jpg" class='blog_jpg'>
-                <p class='blog'>“Smart city” is a term we are going to be hearing a lot more of in the coming years. It’s thought that by 2020 .we will be spending $400 Billion a year building them – but what are they?<br>
-                    <span>The idea is to embed the advances in technology and data collection which are making the <mark>Internet of Things (IoT)</mark> a reality into the infrastructures of the environments where we live.</span><br>
-                    <span>We will interact and get information from these smart systems using our smart phones, watches and other wearable, and crucially, the machines will also speak to each other.</span><br>
-                    <span>The world we are living in is changing. IDC and CANALYS  predict there will be 30 Billion connected things by 2018, and only 6 Billion of them will be phones and tablets. It means there will be 24 Billion of connected smart things around us. we will live with ambient intelligence, where there are so many intelligent small device around us, all can be connected in many  ways to the internet, and these small devices yield vast amount of data that later can be analyze with sophisticated algorithms where it help us get insights or do actions to get the things done. This is called the Internet Of Things (IoT).These devices can be sensor and chips in buildings, in cars and vehicles, ATM machines, handheld scanners, automation devices, industrial devices, medical devices, etc.</span><br>
-                    <span>The explosive growth of Smart City and Internet Of Things applications creates many scientific and engineering challenges that call for ingenious research efforts from both academia and industry, especially for the development of efficient, scalable, and reliable smart city based on IoT.New protocols, architectures, and services are in dire needs to respond for these challenges.</span><br>
-                </p>
+    <!---Preloader-->
+    <div id="loader_div">
+        <div class="circle"></div>
+    </div>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top active">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Microbyte Solutions</a>
+        
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto" id='nav'>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#course">Course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#other">Review</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+            </ul>
             </div>
         </div>
-    </section>
-    <script src="assets/js/main.js"></script>
+    </nav>
+    <!--Blog-->
+    <div class="container my-5 py-5 px-4 text-center blog">
+        <h2 class='text-center'>“SMART CITIES WILL BE THE BIGGEST ENABLER OF IOT”</h2>
+        <img src="assets/images/blog.jpg" alt="Blog Image" class='py-5 mx-auto'>
+        <p class='text-justify'>“Smart city” is a term we are going to be hearing a lot more of in the coming years. It’s thought that by 2020 .we will be spending $400 Billion a year building them – but what are they?</p>
+        <p class='text-justify'>The idea is to embed the advances in technology and data collection which are making the Internet of Things (IoT) a reality into the infrastructures of the environments where we live.</p>
+        <p class='text-justify'>We will interact and get information from these smart systems using our smart phones, watches and other wearable, and crucially, the machines will also speak to each other.</p>
+        <p class='text-justify'>The world we are living in is changing. IDC and CANALYS predict there will be 30 Billion connected things by 2018, and only 6 Billion of them will be phones and tablets. It means there will be 24 Billion of connected smart things around us. we will live with ambient intelligence, where there are so many intelligent small device around us, all can be connected in many ways to the internet, and these small devices yield vast amount of data that later can be analyze with sophisticated algorithms where it help us get insights or do actions to get the things done. This is called the Internet Of Things (IoT).These devices can be sensor and chips in buildings, in cars and vehicles, ATM machines, handheld scanners, automation devices, industrial devices, medical devices, etc.</p>
+        <p class='text-justify'>The explosive growth of Smart City and Internet Of Things applications creates many scientific and engineering challenges that call for ingenious research efforts from both academia and industry, especially for the development of efficient, scalable, and reliable smart city based on IoT.New protocols, architectures, and services are in dire needs to respond for these challenges.</p>
+    </div>
+    <!--Footer-->
+    <footer>
+        <p class="text-center py-3 my-auto">Copyrights &copy; <span>All rights reserved.</span></p>
+    </footer>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        $(window).on('load',function(){
+            $('#loader_div').fadeOut(1000);
+        })
+    </script>
 </body>
 </html>

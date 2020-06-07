@@ -4,208 +4,355 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microbyte Solutions</title>
-    <!--css-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <!--Custom Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--Favicon-->
-    <link rel="icon" href="assets/images/favicon.svg" type="image/svg" sizes="16x16">
+    <link rel="shortcut icon" href="assets/images/logo.JPG" type="image/x-icon">
 </head>
 <body>
-    <div id="loader"></div>
-    <div class='msgdiv'>
-        <img src="assets/images/hand.png" alt="Welcome">
-        <div>
-            <p id='msg'></p>
-            <span>Visitor</span>
-        </div>
+    <!---Preloader-->
+    <div id="loader_div">
+        <div class="circle"></div>
     </div>
-    <!--Landing section-->
-    <section id='landing'>
-        <div class="content">
-            <h1>Microbyte Solutions</h1>
-            <h4>Path to Success Your Dream</h4>
+    <!--Landing Section-->
+    <div class="row home m-auto text-white">
+        <div class="col-12 text-center text-white align-self-center">
+            <h1 class='literata'>Microbyte Solutions</h1>
+            <h5 class='poppins'>Way to success your dream</h5>
         </div>
-        <a href="#home">Enter</a>
-    </section>
-    <!--#Landing section-->
-    <!--Home section-->
-    <section id="home" class='headersection'>
-        <header id="header1" class='header'>
-            <div class="logo">
-                <h1>Microbyte Solutions</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href='#home'>Home</a></li>
-                    <li><a href='#course'>Course</a></li>
-                    <li><a href='#gallery'>Gallery</a></li>
-                    <li><a href='blog.html'>Blog</a></li>
-                    <li><a href='#contact'>Contact</a></li>
-                </ul>
-            </nav>
-            <div class="toggle_icon">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </header>
+        <h6><a href="#hero" class='roboto text-white'>ENTER</a></h6>
+    </div>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
-            <img src="assets/images/shape1.svg" alt="Shape1" class="shapes">
-            <img src="assets/images/shape2.svg" alt="Shape2" class="shapes">
-            <div class="contentBx">
-                <h1>Microbyte Solutions,</h1>
-                <p>is a Design and Training House<br>for People with Learning and<br>Design Passion.</p>
-                <a href='#course'>Check Our Courses</a>
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/founder.jpg" alt="Founder">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Microbyte Solutions</a>
+        
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto" id='nav'>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#course">Course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#other">Review</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
             </div>
         </div>
-    </section>
-    <!--#Home section-->
-    <!--Course section-->
-    <section id='course'>
-        <h1>Courses</h1>
-        <div class="container">
-            <div class="first">
-                <div class="box">
-                    <div class='boximg'>
-                        <img src="assets/images/c1.jpg" alt="IoT">
-                    </div>
-                    <div class='boxcontent'>
-                        <p>I.O.T Internet Of Things Basic Course</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class='boximg'>
-                        <img src="assets/images/c2.jpg" alt="IoT using Cloud.">
-                    </div>
-                    <div class='boxcontent'>
-                        <p>I.O.T Implementation Using Cloud</p>
+    </nav>
+    <!--Home Page-->
+    <section id="hero" class='py-5'>
+        <img src="assets/images/shape1.svg" alt="Shape1" class="shapes">
+        <img src="assets/images/shape2.svg" alt="Shape2" class="shapes">
+        <div class="container py-5">
+            <div class="row m-auto landing py-5 align-items-center">
+                <div class="col-md-12 col-lg-6 p-0 order-lg-1 order-2">
+                    <div class="contentBx">
+                        <h1>Microbyte Solutions,</h1>
+                        <p>is a Design and Training House<br>for People with Learning and<br>Design Passion.</p>
+                        <a href='#course' class='text-white text-uppercase poppins'>Check Our Courses</a>
                     </div>
                 </div>
-                <div class="box">
-                    <div class='boximg'>
-                        <img src="assets/images/c3.jpg" alt="IoT using Cloud.">
-                    </div>
-                    <div class='boxcontent'>
-                        <p>Android App Development for I.O.T</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class='boximg'>
-                        <img src="assets/images/c5.jpg" alt="IoT using Cloud.">
-                    </div>
-                    <div class='boxcontent'>
-                        <p>Linux O.S</p>
-                    </div>
-                </div>
-            </div>
-            <div class="second">
-                <div class="box">
-                    <div class='boximg'>
-                        <img src="assets/images/c4.jpg" alt="IoT using Cloud.">
-                    </div>
-                    <div class='boxcontent'>
-                        <p>Raspberry  Pi  Hardware & I.o.T. Programming</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class='boximg'>
-                        <img src="assets/images/c6.jpg" alt="IoT using Cloud.">
-                    </div>
-                    <div class='boxcontent'>
-                        <p>Machine Learning & <br>R programming</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class='boximg'>
-                        <img src="assets/images/c7.jpg" alt="IoT using Cloud.">
-                    </div>
-                    <div class='boxcontent'>
-                        <p>Embedded System using Arduino Hardware & Programming</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class='boximg'>
-                        <img src="assets/images/c8.jpg" alt="IoT using Cloud.">
-                    </div>
-                    <div class='boxcontent'>
-                        <p>Python <br>Programming</p>
+                <div class="col-md-12 col-lg-6 p-0 d-flex justify-content-center order-lg-2 order-1 mb-lg-0 mb-5">
+                    <div class="imgBx">
+                        <img src="assets/images/founder.jpg" alt="Founder">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--#Course section-->
-    <!--Gallery section-->
+    <!--Courses Section-->
+    <section id="course" class='py-3'>
+        <div class="container" class='py-5'>
+            <div class="row m-auto py-5">
+                <div class="col-12"><h2 class='py-2 text-center mb-5'>COURSES</h2></div>
+                <div class="col-lg-3 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="assets/images/c1.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">I.O.T Internet Of Things Basic Course</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="assets/images/c2.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">I.O.T Implementation Using Cloud</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="assets/images/c3.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Android App Development for I.O.T</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="assets/images/c4.jpg" alt="Card image">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <h6 class="card-title text-center">Linux O.S</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="assets/images/c5.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Raspberry Pi Hardware & I.o.T. Programming</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="assets/images/c6.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Machine Learning & R programming</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="assets/images/c7.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Embedded System using Arduino Hardware & Programming</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="assets/images/c8.jpg" alt="Card image">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <h6 class="card-title text-center">Python Programming</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Others about us-->
+    <section id="other" class='py-3'>
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-12 mb-5"><h2 class='text-center'>Others About Us</h2></div>
+            </div>
+            <div class="col-12">
+                <div class="info text-center mb-5">
+                    <span class="circle">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <h4 class='pt-3'>Janani</h4>
+                    <div class='py-2'>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class='px-5'>Really,it's excellent. Got real time experience in IoT and python.Very useful.</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="info text-center mb-5">
+                    <span class="circle">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <h4 class='pt-3'>Ashok</h4>
+                    <div class='py-2'>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class='px-5'>I found Microbyte Solutions which is referred by my friend.Good institute for python training program.I learned a lot.Thank You.</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="info text-center mb-5">
+                    <span class="circle">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <h4 class='pt-3'>Vicky</h4>
+                    <div class='py-2'>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class='px-5'>It was an amazing experience of learning.One of the best place to get expert in IoT.Thank You for so much for all the guidance and support.</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="info text-center mb-5">
+                    <span class="circle">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <h4 class='pt-3'>Somu</h4>
+                    <div class='py-2'>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class='px-5'>Best IoT training institute one can take admission in.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Courses Section-->
     <section id="gallery">
-        <h1>Gallery</h1>
-        <div class="container">
-            <div class="imgBx">
-                <img src="assets/images/gallery/1.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/3.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/4.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/2.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/11.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/7.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/6.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/5.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/9.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/10.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/8.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/12.jpeg" alt="Gallery Images" class="gallery_img">
-            </div>
-            <div class="imgBx">
-                <img src="assets/images/gallery/14.jpeg" alt="Gallery Images" class="gallery_img">
+        <div class="container py-4">
+            <div class="row m-auto">
+                <div class="col-12"><h2 class='py-2 text-center my-5'>Gallery</h2></div>
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/1.jpeg"><img src="assets/images/gallery/1.jpeg" alt="Image 1"></a>
+                    </div>
+                </div>         
+                <div class="col-lg-4 col-md-6 col-sm-8  mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/2.jpeg"><img src="assets/images/gallery/2.jpeg" alt="Image 2"></a>                    
+                    </div>
+                </div>         
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/3.jpeg"><img src="assets/images/gallery/3.jpeg" alt="Image 3"></a>                    
+                    </div>
+                </div>         
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/4.jpeg"><img src="assets/images/gallery/4.jpeg" alt="Image 4"></a>                    
+                    </div>
+                </div>         
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/5.jpeg"><img src="assets/images/gallery/5.jpeg" alt="Image 5"></a>                    
+                    </div>
+                </div>         
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/6.jpeg"><img src="assets/images/gallery/6.jpeg" alt="Image 6"></a>                    
+                    </div>
+                </div>           
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/7.jpeg"><img src="assets/images/gallery/7.jpeg" alt="Image 7"></a>                    
+                    </div>
+                </div>         
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/8.jpeg"><img src="assets/images/gallery/8.jpeg" alt="Image 8"></a>                    
+                    </div>
+                </div>         
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/9.jpeg"><img src="assets/images/gallery/9.jpeg" alt="Image 9"></a>                    
+                    </div>
+                </div>         
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/10.jpeg"><img src="assets/images/gallery/10.jpeg" alt="Image 10"></a>
+                    </div>
+                </div>         
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/11.jpeg"><img src="assets/images/gallery/11.jpeg" alt="Image 11"></a>
+                    </div>
+                </div>         
+                <div class="col-lg-4 col-md-6 col-sm-8 mb-4 mx-auto">
+                    <div class='imgBx'>
+                        <a class="test-popup-link" href="assets/images/gallery/12.jpeg"><img src="assets/images/gallery/12.jpeg" alt="Image 12"></a>
+                    </div>
+                </div>         
             </div>
         </div>
     </section>
-    <!--#Gallery section-->
+    <!--Blog section-->
+    <section id="blog" class='py-3'>
+        <div class="container py-5">
+            <div class="row m-auto">
+                <div class="col-12 text-center py-5"><h2>Blog</h2></div>
+                <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 py-4 col-sm-8 offset-sm-2 py-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class='imgBx'>
+                            <img class="card-img-top" src="assets/images/blog.jpg" alt="Card image">
+                        </div>
+                        <div class="card-body">
+                            <h6 class='text-center'><a href='blog.html' class="card-title text-center text-dark">Smart Cities Will Be The Biggest Enabler of I.o.T</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Contact section-->
-    <section id="contact">
-        <h1>Contact</h1>
-        <div class="container">
-            <div class="bx">
-                <div><img src="assets/images/phone.svg" alt="Phone" class='img1'></div>
-                <p>+91 9821150436</p>
+    <section id="contact" class='py-3'>
+        <div class="container py-5">
+            <div class="row pt-3">
+                <div class="col-12 mb-5"><h2 class='text-center text-white'>Contact</h2></div>
             </div>
-            <div class="bx">
-                <div><img src="assets/images/mail.svg" alt="Phone" class='img2'></div>
-                <p>microbytesolutions@gmail.com<br>rajivwagle@microbytesolutions.com</p>
+            <div class="row my-5 py-3 align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 phone text-right text-white"><i class="fas fa-phone-alt"></i></div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-right"><p class='m-auto'>+91 9821150436</p></div>
             </div>
-            <div class="bx">
-                <div><img src="assets/images/map.svg" alt="Phone" class='img3'></div>
-                <p>B 9, Pornima , Opp. Thane Railway Station,Next To Ganesh Tower, Thane (West)-400602</p>
+            <div class="row my-5 py-3 align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 email text-right text-white"><i class="fas fa-envelope"></i></div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-right"><p class='m-auto'>microbytesolutions@gmail.com<br>rajivwagle@microbytesolutions.com</p></div>
             </div>
-            <div class="bx">
-                <div><img src="assets/images/map.svg" alt="Phone" class='img4'></div>
-                <p>1 ,Sion MaryLand Corner ,Next To Sudha Dairy ,Opp. Sion Bridge, Sion(East)-   400022.</p>
+            <div class="row my-5 py-3 align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 a1 text-right text-white"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-right"><p class='m-auto'>B 9, Pornima , Opp. Thane Railway Station,Next To Ganesh Tower, Thane (West)-400602</p></div>
+            </div>
+            <div class="row py-3 align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 a2 text-right text-white"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-right"><p class='m-auto'>1 ,Sion MaryLand Corner ,Next To Sudha Dairy ,Opp. Sion Bridge, Sion(East)-   400022.</p></div>
             </div>
         </div>
     </section>
-    <!--#Contact section-->
+    <!--Footer-->
+    <footer>
+        <p class="text-center py-3 my-auto">Copyrights &copy; <span>All rights reserved.</span></p>
+    </footer>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--Magnific Popup Js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha256-P93G0oq6PBPWTP1IR8Mz/0jHHUpaWL0aBJTKauisG7Q=" crossorigin="anonymous"></script>
+    <!--One Page Nav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js" integrity="sha256-uyKq3i+Mv8CWwJ2iheLNVB5fJWs6CJAJDIoEPrbUsUc=" crossorigin="anonymous"></script>
+    <!--Custom JS-->
     <script src="assets/js/main.js"></script>
 </body>
 </html>
