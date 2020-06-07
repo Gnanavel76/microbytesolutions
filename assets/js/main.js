@@ -16,6 +16,10 @@ $(document).ready(function(){
 
     // Adding navbara shadow
     var nav = $('nav').offset().top;
+    $(window).resize(function(){
+        nav = $('nav').offset().top;
+        $('.home').css('height',$(window).innerHeight());
+    });
     $(window).scroll(function(){;
         var scroll = $(window).scrollTop();
         if(scroll > nav){
@@ -36,4 +40,7 @@ $(document).ready(function(){
         navLink.removeClass('active');
         $(this).addClass('active');
     });
+
+    // AOS
+    AOS.init();
 })
