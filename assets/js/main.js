@@ -41,5 +41,7 @@ $(document).ready(function(){
     });
 
     // AOS
-    AOS.init();
+    AOS.init({
+       startEvent: 'load',
+    });
 })
