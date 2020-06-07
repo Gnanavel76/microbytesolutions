@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+section{
+    overflow: hidden;
+}
 a{
     text-decoration: none!important;
 }
@@ -315,7 +318,7 @@ footer span{
         text-align: center;
     }
     #contact{
-        background: #004FDA;
+        background: #681ead;
     }
     #contact .phone i,#contact .email i,#contact .a1 i,#contact .a2 i{
         margin-right: 0px;
