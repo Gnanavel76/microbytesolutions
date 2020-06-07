@@ -1,8 +1,9 @@
 $(document).ready(function(){
-
+    
     var navLink = $('.nav-link');
     var navBar = $('.collapse');
     var toggleButton = $('.navbar-toggler');
+    var nav = $('nav').offset().top;
     // For 100vh
     $('.home').css('height',$(window).innerHeight());
     // Preloader
@@ -15,9 +16,7 @@ $(document).ready(function(){
     });
 
     // Adding navbara shadow
-    var nav = $('nav').offset().top;
     $(window).resize(function(){
-        nav = $('nav').offset().top;
         $('.home').css('height',$(window).innerHeight());
     });
     $(window).scroll(function(){;
