@@ -306,7 +306,9 @@ footer span{
     text-indent: 130px;
     margin-top: 40px;
 }
-
+.blog img{
+    width: 300px;
+}
 @media (max-width: 991px){
     #nav li{
         margin: 10px auto;
