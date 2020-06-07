@@ -35,9 +35,6 @@ $(document).ready(function(){
             navBar.removeClass('show');
             toggleButton.attr('aria-expanded','false')
         }
-
-        navLink.removeClass('active');
-        $(this).addClass('active');
     });
 
     // AOS
