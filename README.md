@@ -2,7 +2,7 @@
 
 ## Tools
 
-The website is built and developed using the Bootstrap Framework.
+This website is built and developed using the Bootstrap Framework.
 
 ## Live Preview
 
