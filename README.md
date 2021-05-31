@@ -1,3 +1,7 @@
 # Microbyte Solutions
 
-Check this website at this url - https://gnanavel76.github.io/microbytesolutions/
+Website made with HTML, CSS, Javascript, Bootstrap.
+
+# Live Preview
+
+https://gnanavel76.github.io/microbytesolutions/
