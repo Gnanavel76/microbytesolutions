@@ -1,6 +1,8 @@
-# Microbyte Solutions
+# The Microbyte Solutions website.
 
-Website made with HTML, CSS, Javascript, Bootstrap.
+# Tools
+
+The website is built and developed using the Bootstrap Framework.
 
 # Live Preview
 
